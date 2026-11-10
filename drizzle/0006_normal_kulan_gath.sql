@@ -1,0 +1,1 @@
+ALTER TABLE `checklist_items` MODIFY COLUMN `status` enum('Executed','Under Review','Outstanding','Waived') NOT NULL DEFAULT 'Under Review';
